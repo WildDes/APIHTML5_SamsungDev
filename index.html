@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4 API's HTML5</title>  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Práctica 4 API’s de HTML5</h1>
+    
+    <h2 id="titulo">Carga de video</h2>
+
+    <div id="contenedorCarga">
+        <label for="archivo">Selecciona un vídeo para ser reproducido</label>
+        <input type="file" accept='video/*' id="archivo" onchange="comenzar()">
+    </div>
+
+    <div id="contenedorVideo">
+        <video id="video" ></video>
+        <div id="botones">
+            <button onclick="document.getElementById('video').play();">&#9658;</button> 
+            <button onclick="document.getElementById('video').pause();">&#9646; &#9646;</button> 
+            <button onclick="document.getElementById('video').volume += 0.1;">&#10010;</button>
+            <button onclick="document.getElementById('video').volume -= 0.1;">&#9644;</button> 
+        </div>
+    </div>
+
+</body>
+</html>

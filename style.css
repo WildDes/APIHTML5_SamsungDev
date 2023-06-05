@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arial', 'Arial Sans Regular', 'Arial Grande', 'Arial Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+    user-select: none;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#contenedorCarga{
+    margin: auto;
+    padding: 1em;
+    max-width: 50%;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+}
+
+#contenedorVideo{
+    visibility: hidden;
+    margin: auto;
+    padding: 1em;
+    max-width: 50%;
+    text-align: center;
+}
+
+button {
+    font-family: Verdana;
+    color: deepskyblue;
+    font-size: 14px;
+    padding: 1em;
+    text-decoration: none;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 1px 4px #000000;
+    -moz-box-shadow: 0px 1px 4px #000000;
+    box-shadow: 0px 1px 4px #000000;
+    border: solid #000000 2px;
+    background: -moz-linear-gradient(top, deepskyblue, deepskyblue);
+}
+
+    button:hover {
+        background: deepskyblue;
+        color: white;
+    }
